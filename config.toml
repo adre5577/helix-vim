@@ -70,6 +70,11 @@ esc = ["collapse_selection", "keep_primary_selection"]
 j = "move_line_down"
 k = "move_line_up"
 
+# Make gj and gk behave the same
+[keys.normal.g]
+j = "move_visual_line_down"
+k = "move_visual_line_up"
+
 # Extend and select commands that expect a manual input can't be chained
 # I've kept d[X] commands here because it's better to at least have the stuff you want to delete
 # selected so that it's just a keystroke away to delete
