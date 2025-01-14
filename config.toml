@@ -28,6 +28,10 @@ S = "surround_add" # Would be nice to be able to do something after this but it 
 ";"= "repeat_last_motion"
 #  "C-;" = "collapse_selection"
 
+H = "goto_window_top"
+M = "goto_window_center"
+L = "goto_window_bottom"
+
 # Clipboards over registers ye ye
 x = "delete_selection"
 p = ["paste_clipboard_after", "collapse_selection"]
